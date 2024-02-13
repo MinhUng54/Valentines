@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video with Border</title>
+
+    <style>
+        /* Add styles for the video container */
+        .video-container {
+            border: 2px solid #ccc; /* Border style, adjust color and thickness as needed */
+            max-width: 350px; /* Set the maximum width of the container */
+            overflow: hidden; /* Hide overflowing content */
+            border-radius: 8px; /* Optional: Add rounded corners to the container */
+        }
+
+        /* Style the video element */
+        video {
+            width: 100%; /* Make the video fill the container */
+            display: block; /* Ensure block-level display */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wrap the video element inside a container div with the "video-container" class -->
+    <div class="video-container">
+        <video controls autoplay muted loop width="350" src="C:\Users\Minh Ung\Desktop\New folder\Download.mp4">
+            <source src="Download.mp4">
+        </video>
+    </div>
+
+</body>
+</html>
